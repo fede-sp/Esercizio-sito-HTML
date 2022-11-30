@@ -1,0 +1,134 @@
+/* impostazioni valide per tutti gli elementi della pagina */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* inserisci qui le tue regole CSS */
+  header{
+    background-color:rgb(38, 41, 46);
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+  }
+
+ header ul li{
+  display: inline-block;
+ }
+
+header ul li a {
+  text-decoration: none;
+  padding-left: 20px;
+  color: darkgray;
+}
+
+header ul li a:hover{
+  color: white;
+}
+
+header h1,
+header nav{
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+header h1 a{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-left: 8px red solid;
+  
+}
+
+.logo{
+  color: darkgray;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 140px;
+    align-items: center;
+    background-color: rgb(38,41,46);
+}
+
+footer p,
+footer p a {
+  color: darkgray;
+}
+
+footer p{
+  padding-left: 15%;
+  padding-right: 10%;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+main section,
+main table{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+main section h3{
+  padding-top: 10px;
+}
+
+.primo {
+  display: flex;
+  background-color: rgb(185, 18, 18);
+  padding: 10px;
+  border-radius: 15px;
+  color: white;
+  line-height: 25px;
+}
+
+.secondo{
+  line-height: 30px;
+}
+
+.linea{
+  border-left: 1px rgb(184, 179, 179) solid;
+  padding-left: 10px;
+}
+
+section p{
+  padding-top: 20px;
+}
+
+table{
+  border-collapse: collapse;
+}
+td,th{
+  border: 1px solid #ddd;
+  padding-left: 9px;
+}
+
+th{
+  background-color: rgb(218, 213, 213);
+}
+
+.terzo p{
+  padding-bottom: 50px;
+}
+
+.light{
+  color: white;
+  text-decoration: none;
+  background-color: rgb(92, 87, 87);
+}
+
+.secondo a{
+  color: red;
+}
